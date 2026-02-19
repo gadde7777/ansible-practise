@@ -1,14 +1,14 @@
-- name: task level variables
+- name: Play level variables
   hosts: local
   connection: local
   vars:
    course: "devops with AWS in play"
    trainer: "shiva in play"
   tasks:
-- name: print variables
+- name: Task level variables
   vars:
     course: "devops with AWS in tasks"
     trainer: "shiva in tasks"
     ansible.builtin.debug:
-    msg:  "co urse is: {{ course }}, Trainer is {{ trainer }}"
+    msg:  "course is: {{ course }}, Trainer is: {{ trainer }}"
 
