@@ -7,6 +7,23 @@
        name: nginx
        state: present
 
+   - name: Ensure nginx service started
+     ansible.builtin.service:
+       name: nginx
+       state: started
+       enabled: yes
+
+   - name: Ensure nginx service started
+     ansible.builtin.service:
+       name: nginx
+       state: stopped
+    
+   - name: Ensure nginx service started
+     ansible.builtin.service:
+       name: nginx
+       state: restarted
+       enabled: yes
+
 
 
     
