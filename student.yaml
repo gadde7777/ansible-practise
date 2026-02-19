@@ -1,0 +1,9 @@
+- name: "siva reddy"
+  dob: "1880-09-12"
+  mobile:3045679087
+  addresses:
+  - flatnum: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: Current 
+

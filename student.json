@@ -1,0 +1,50 @@
+{    
+  "Students": 
+  [                    
+    {
+          
+        "student1" :[
+            {"firstName": "siva reddy",
+        "dob":"2000-02-02",
+        "addresses":
+        [
+          {
+            "type":"perm",
+            "flatNumber": 104,
+            "street":"gandhi nagar",
+            "city":"hyderabad"     
+            },
+         {
+            "type":"temp",
+            "flatNumber": 103,
+            "street": "amnanagar",
+            "city":"abameerpet"     
+            }
+        ],
+
+"skills":["java","devops","cloud"]}],
+
+"students2":[
+
+        {"firstName": "siva reddy",
+        "dob":"2000-02-02",
+         "addresses":
+[
+  {
+    "type":"perm",
+     "flatNumber": 104,
+     "street":"gandhi nagar",
+     "city":"hyderabad"     
+    },
+    {
+    "type":"temp",
+     "flatNumber": 103,
+     "street": "amnanagar",
+     "city":"abameerpet"     
+    }
+],
+
+"skills":["java","devops","cloud"]}]   }]}
+
+ 
+ 

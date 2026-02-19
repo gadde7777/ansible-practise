@@ -1,0 +1,20 @@
+<!--Student Object-->
+    <student>
+        <FirstName>Ramesh</FirstName>
+        <DOB>1999-08-21</DOB>
+        <Email>gadde.rao@gmail.com</Email>
+        <!--<Address>1000 walnut street</Address>-->
+
+            <Addresses>
+                <PermAddress>
+                    <FlatNumber>1000</FlatNumber>
+                    <Street>GandhiStreet</Street>
+                    <City>Warangal</City>
+                </PermAddress>
+                <CurrentAddress>
+                    <FlatNumber>1000</FlatNumber>
+                    <Street>GandNehruhiStreet</Street>
+                    <City>Hyderabad</City>
+                </CurrentAddress>
+            </Addresses>
+    </student>
