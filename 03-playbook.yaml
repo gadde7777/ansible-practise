@@ -13,12 +13,12 @@
        state: started
        enabled: yes
 
-   - name: Ensure nginx service started
+   - name: Ensure nginx service stopped
      ansible.builtin.service:
        name: nginx
        state: stopped
     
-   - name: Ensure nginx service started
+   - name: Ensure nginx service restarted
      ansible.builtin.service:
        name: nginx
        state: restarted
