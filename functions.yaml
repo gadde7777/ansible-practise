@@ -1,8 +1,10 @@
 - name: Functions or Filters
   hosts: local
   connection: local
+
   tasks:
-  - name: greeting
-    greeting: "GADDE Narasimha"
+  - name: greeting printing
+    vars:
+     greeting: "GADDE Narasimha"
     ansible.builtin.debug:
       msg: i am shivakumar "{{ greeting }}"
