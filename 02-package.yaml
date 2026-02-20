@@ -1,4 +1,5 @@
-- name: Install and remove packages
+# - name: Install and remove packages
+- name: varriable from Args
   connection: local
   host: local
   become: yes
