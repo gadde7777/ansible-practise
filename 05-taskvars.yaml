@@ -7,7 +7,7 @@
   tasks:
 - name: Task level variables
   vars:
-    course: "devops with AWS in tasks"
-    ansible.builtin.debug:
+     course: devops with AWS in tasks
+  ansible.builtin.debug:
       msg:  "course is: {{ course }}, Trainer is: {{ trainer }}"
 
