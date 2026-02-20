@@ -3,8 +3,9 @@
   connection: local
   vars:
    NUMBER_OF_SESSIONS: 7
+   place: cumming
   tasks:
-  - name: ansible sessions checking
+  - name: ansible sessions
     ansibile.builtin.debug:
-     msg:  "YES. MORE THAN 5 SESSIONS"
+      msg: "YES. MORE THAN 5 SESSIONS"
     when: NUMBER_OF_SESSIONS > 5
