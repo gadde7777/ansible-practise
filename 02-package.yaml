@@ -1,4 +1,4 @@
-- name: varriable from Args
+- name: package Install
   connection: local
   host: local
   become: yes
@@ -8,7 +8,7 @@
       name: "{{item.name}}"
       state: "{{item.state}}"
     loop:
-    - {name: "mysql", state: "absent"}
-    - {name: "mysql", state: "present"}
-    - {name: "zip", state: "present"}
+    - { name: "mysql", state: "absent" }
+    - { name: "mysql", state: "present" }
+    - { name: "zip", state: "present" }
 
