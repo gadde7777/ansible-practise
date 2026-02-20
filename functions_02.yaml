@@ -7,4 +7,5 @@
     # vars:
     #  greeting: GADDE Narasimha
     ansible.builtin.debug:
-      msg: i am shivakumar "{{ Greeting | default('Good Morning') }}"
+      # msg: i am shivakumar "{{ Greeting | default('Good Morning') }}"
+      msg: i am shivakumar "{{ Greeting | default(100) }}"
