@@ -3,18 +3,12 @@
   hosts: local
   vars:
   tasks:
-  # - name: print facts
-  #   ansible.builtin.debug:
-  #    msg: "{{ ansible_facts }}"
-
-    - name: check redhat or not
-      ansible.builtin.debug:
+   - name: check redhat or not
+     ansible.builtin.debug:
        msg: "yes Package family is redhat"
-      ##  "os_family": "RedHat",
-      when ansible_fact.os_family == "RedHat"
+     when ansible_facts.os_family == "RedHat"
 
-    - name: check Debian or not
-      ansible.builtin.debug:
+   - name: check Debian or not
+     ansible.builtin.debug:
        msg: "yes Package family is Debian"
-      ##  "os_family": "RedHat",
-      when ansible_fact.os_family == "Debian"
+     when ansible_facts.os_family == "Debian"
