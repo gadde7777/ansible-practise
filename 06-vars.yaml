@@ -1,0 +1,11 @@
+- name: Task level variables
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml
+  tasks:
+  -  name: print variables
+     vars:
+        course: devops with AWS in tasks    
+     ansible.builtin.debug:
+        msg:  "course is: {{ course }}, Trainer is: {{ trainer }}"
