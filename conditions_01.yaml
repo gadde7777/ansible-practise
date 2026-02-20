@@ -7,4 +7,4 @@
   - name: ansible sessions checking
     ansibile.builtin.debug:
      msg:  "YES. MORE THAN 5 SESSIONS"
-  when: NUMBER_OF_SESSIONS > 5
+    when: NUMBER_OF_SESSIONS > 5
