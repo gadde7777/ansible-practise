@@ -5,6 +5,6 @@
   tasks:
   - name: greeting printing
     vars:
-     greeting: "GADDE Narasimha"
+     greeting: GADDE Narasimha
     ansible.builtin.debug:
       msg: i am shivakumar "{{ greeting }}"
