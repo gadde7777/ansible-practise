@@ -3,5 +3,6 @@
   connection: local
   tasks:
   - name: greeting
+    greeting: "GADDE Narasimha"
     ansible.builtin.debug:
       msg: i am shivakumar "{{ greeting }}"
