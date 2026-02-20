@@ -1,0 +1,22 @@
+- name : data types for yaml
+  connection: local
+  hosts: local
+  vars:
+   PROGRAM: "DevSecops with AWS"
+   DURATION: 140
+   IS_ALIVE: true
+   Details: 
+    months: 4
+    Trainer: "shiva"
+    Topics:
+    - LINUX
+    - SHELL
+    - Ansible
+    - TERRAFORM
+  tasks:
+  - name : print Variables  
+    ansible.builtin.debug:
+    msg: |
+     program: {{ PROGRAM }}
+     durarion: {{ DURATION }}
+     islive: {{ IS_ALIVE }}
