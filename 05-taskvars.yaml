@@ -5,11 +5,11 @@
     course: "devops with AWS in play"
     trainer: "shiva in play"
   tasks:
-  - name: print variables
-    vars:
-      course: devops with AWS in tasks    
-    ansible.builtin.debug:
-      msg:  "course is: {{ course }}, Trainer is: {{ trainer }}"
+  -  name: print variables
+     vars:
+        course: devops with AWS in tasks    
+     ansible.builtin.debug:
+        msg:  "course is: {{ course }}, Trainer is: {{ trainer }}"
 
 
 
