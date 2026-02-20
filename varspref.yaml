@@ -1,8 +1,8 @@
 - name: Vars preference
   hosts: local
   connection: local
-  vars:
-   COURSE: "Java FROM PLAY"
+  # vars:
+  #  COURSE: "Java FROM PLAY"
   # vars_files: 
   # - course.yaml
   # vars_prompt:
@@ -20,6 +20,7 @@
      # 2. Tasks
      # 3. File
      # 4. Prompt
+     # 5. Play
 
 
 
