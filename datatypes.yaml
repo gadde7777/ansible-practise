@@ -1,4 +1,4 @@
-- name : data types for yaml
+- name: data types for yaml
   connection: local
   hosts: local
   vars:
