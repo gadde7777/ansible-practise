@@ -14,7 +14,7 @@
     - Ansible
     - TERRAFORM
    tasks:
-   - name : print Variables  
+   - name: print Variables  
      ansible.builtin.debug:
       msg: |
         program: {{ PROGRAM }}
