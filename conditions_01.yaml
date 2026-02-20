@@ -1,0 +1,9 @@
+- name: conditions on yaml
+  hosts: local
+  connection: local
+  vars:
+   NUMBER_OF_SESSIONS: 7
+  tasks:
+   ansibile.builtin.debug:
+   msg: "YES. MORE THAN 5 SESSIONS"
+  when: NUMBER_OF_SESSIONS >5
