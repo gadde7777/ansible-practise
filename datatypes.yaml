@@ -20,3 +20,5 @@
         program: {{ PROGRAM }}
         durarion: {{ DURATION }}
         islive: {{ IS_ALIVE }}
+        details: {{ Details }}
+        Topics: {{ Topics }}
