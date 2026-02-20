@@ -14,7 +14,7 @@
     # vars:
     #  COURSE: "JAVA FROM TASKS"
   ansible.builtin.debug:
-     msg:  "hi {{ COURSE }}"
+     msg: "hi {{ COURSE }}"
 
      # 1. Args
      # 2. Tasks

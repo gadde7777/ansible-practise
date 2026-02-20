@@ -16,7 +16,7 @@
    tasks:
    - name : print Variables  
      ansible.builtin.debug:
-     msg: |
-     program: {{ PROGRAM }}
-     durarion: {{ DURATION }}
-     islive: {{ IS_ALIVE }}
+      msg: |
+        program: {{ PROGRAM }}
+        durarion: {{ DURATION }}
+        islive: {{ IS_ALIVE }}
