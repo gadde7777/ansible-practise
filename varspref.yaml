@@ -2,17 +2,17 @@
   hosts: local
   connection: local
   vars:
-  COURSE: "Java FROM PLAY"
+   COURSE: "Java FROM PLAY"
   vars_files: 
-    course.yaml
+  - course.yaml
   vars_prompt:
-    COURSE: COURSE
+  - COURSE: COURSE
     prompt: Please enter the COURSE
     private: false
   tasks:
   - name: Print Course
     vars:
-    COURSE: "JAVA FROM TASKS"
+     COURSE: "JAVA FROM TASKS"
     ansible.builtin.debug:
      msg:  "hi {{ COURSE }}"
 
