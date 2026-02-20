@@ -50,8 +50,8 @@
     ansible.builtin.set.fact:
       # msg:  " {{topics}} "
       msg:  "{{ tagsList | items2dict }}"  
-      student_yaml: "{{lookup ('file', student.yaml ) | from_yaml }}"
+      students_yaml: "{{lookup ('file', 'student.yaml' ) | from_yaml }}"
 
   - name: Convert Yaml tO json
     ansible.builtin.debug:
-     msg:  "{{ student_yaml | to_nice_json }}"  
+     msg:  "{{ students_yaml | to_nice_json }}"  
