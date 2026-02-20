@@ -5,10 +5,10 @@
    COURSE: "Java FROM PLAY"
   # vars_files: 
   # - course.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Please enter the COURSE
-    private: false
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Please enter the COURSE
+  #   private: false
   tasks:
   - name: Print Course
     # vars:
@@ -19,6 +19,8 @@
      # 1. Args
      # 2. Tasks
      # 3. File
+     # 4. Prompt
+
 
 
 
