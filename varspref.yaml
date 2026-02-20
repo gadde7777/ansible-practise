@@ -1,0 +1,18 @@
+- name: Vars preference
+  hosts: local
+  connection: local
+  vars:
+  COURSE: "Java FROM PLAY"
+  vars_files: 
+   course.yaml
+  vars_prompt:
+    -COURSE: COURSE
+  tasks:
+  - name: Print Course
+    COURSE: "JAVA FROM TASKS"
+    ansible.builtin.debug:
+     msg:  "hi {{ COURSE }}"
+
+
+
+  
