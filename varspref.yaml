@@ -4,9 +4,9 @@
   vars:
   COURSE: "Java FROM PLAY"
   vars_files: 
-   course.yaml
+    course.yaml
   vars_prompt:
-    -COURSE: COURSE
+    COURSE: COURSE
   tasks:
   - name: Print Course
     COURSE: "JAVA FROM TASKS"
