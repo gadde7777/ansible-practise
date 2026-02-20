@@ -11,5 +11,5 @@
     - { name: "mysql", state: "absent" }
     - { name: "mysql", state: "present" }
     - { name: "zip", state: "present" }
-     - { name: "nginx", state: "absent" }
+    - { name: "nginx", state: "absent" }
 
