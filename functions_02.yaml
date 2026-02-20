@@ -3,6 +3,7 @@
   connection: local
   vars:
    topics: linux, mongod, shell, terraform
+   course: "teaching engineering"
    tagsMap:
     name: ansible
     project: roboshop
@@ -61,3 +62,11 @@
   - name: convert YAML to JSON
     ansible.builtin.debug:
       msg: "{{ students_yaml | to_nice_json  }}"
+
+  - name: convert lower to upper
+    ansible.builtin.debug:
+      msg: "{{ course | upper  }}"
+
+  - name: convert upper to lower
+    ansible.builtin.debug:
+      msg: "{{ course | lower }}"
