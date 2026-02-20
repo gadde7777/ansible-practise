@@ -11,10 +11,14 @@
     private: false
   tasks:
   - name: Print Course
-    vars:
-     COURSE: "JAVA FROM TASKS"
+    # vars:
+    #  COURSE: "JAVA FROM TASKS"
     ansible.builtin.debug:
      msg:  "hi {{ COURSE }}"
+
+     # 1. Args
+     # 2. Tasks
+
 
 
 
