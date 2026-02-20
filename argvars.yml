@@ -1,7 +1,7 @@
-- name: Variable from Args
+- name: varriable from Args
   connection: local
   hosts: local
   tasks:
-  - name: Print Baribale from Args
+  - name: Print variable from Args
   ansible.builtin.debug:
       msg:  "HI {{ NAME }}, Good Morning"
