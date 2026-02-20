@@ -1,3 +1,4 @@
+
 - name: data types for yaml
   connection: local
   hosts: local
@@ -13,8 +14,8 @@
     - SHELL
     - Ansible
     - TERRAFORM
-   tasks:
-   - name: print Variables  
+  tasks:
+  - name: print Variables  
   ansible.builtin.debug:
     msg: |
         program: {{ PROGRAM }}
