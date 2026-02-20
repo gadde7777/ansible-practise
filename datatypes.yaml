@@ -13,7 +13,7 @@
     - SHELL
     - Ansible
     - TERRAFORM
-  tasks:
+   tasks:
    - name: print Variables  
   ansible.builtin.debug:
     msg: |
