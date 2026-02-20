@@ -4,7 +4,6 @@
   vars:
    NUMBER_OF_SESSIONS: 7
    place: cumming
-
   tasks:
   - name: ansible sessopns check
     ansible.builtin.debug:
